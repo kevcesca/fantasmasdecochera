@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box; 
+}
+ul li {
+    list-style-type: none; 
+}
+ul li a {
+    text-decoration: none; 
+}
+span {
+    color: #FFF; 
+}
+h1{
+    color: #ECE7EB;
+    font-size: 250%;
+    justify-self: center;
+}
+.titulos{
+    padding: 5%;
+
+}
+p{
+    font-size: 100%;
+    color: #ECE7EB;
+}
+span{
+    font-size: 100%;
+    color: #ECE7EB;
+}
+body{
+    background-color: #EAD4E1;
+    font-family: 'Indie Flower', cursive;
+    font-size: 150%;
+}
+
+.navbar{
+    background-color: #EAD4E1;
+}
+.img-logo{
+    width: 20%;
+}
+
+.main{
+    background: linear-gradient(to bottom, #000000, #00000080), url("../assets/img/fondo.jpg");
+    padding-bottom: 5%;
+}
+
+.pie{
+    background-color: #444452;
+}
+
+
+.img-bandaindex{
+    border-radius: 5%;
+    width: 40%;
+}
+
+.texto-index{
+    background-color: #ac639163;
+    border-radius: 2%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+
+                            /* medias query */
+
+@media only screen and (max-width: 990px) {
+    h1{
+        font-size: 150%;
+    }
+    p{
+        font-size: 80%;
+    }
+    span{
+        font-size: 80%;
+    }
+    .img-logo{
+        width: 100%;
+    }
+
+    .img-bandaindex{
+        width: 100%;
+    }
+}
